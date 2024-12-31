@@ -1,0 +1,23 @@
+{
+  "name": "api-book-boot",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon --inspect src/main.js"
+  },
+  "keywords": [],
+  "author": "Lucas Melo<luckasmelo.dev@gmail.com>",
+  "license": "MIT",
+  "description": "This is simple project to simulate some boot considering a sqlite database.",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "natural": "^8.0.1",
+    "nodemon": "^3.1.9",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
